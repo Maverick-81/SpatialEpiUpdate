@@ -1,0 +1,259 @@
+                                 _____________________________
+
+                                         SaTScan v10.3
+                                 _____________________________
+
+
+Program run on: Wed May 14 19:02:35 2025
+
+Retrospective Space-Time analysis
+scanning for clusters with high rates
+using the Discrete Poisson model.
+_______________________________________________________________________________________________
+
+SUMMARY OF DATA
+
+Study period.......................: 1 to 4
+Number of locations................: 88
+Population, averaged over time.....: 10767463
+Total number of cases..............: 25394
+Annual cases / 100000..............: 21534.7
+_______________________________________________________________________________________________
+
+CLUSTERS DETECTED
+
+1.Location IDs included.: 47, 63, 48, 10, 21, 78, 76, 65, 58, 14, 22, 49, 18, 28, 20
+  Coordinates / radius..: (-80.7759,41.0146) / 1.11
+  Span..................: 1.91
+  Time frame............: 3 to 4
+  Population............: 3747024
+  Number of cases.......: 4811
+  Expected cases........: 4379.09
+  Annual cases / 100000.: 23658.7
+  Observed / expected...: 1.10
+  Relative risk.........: 1.12
+  Log likelihood ratio..: 25.101532
+  P-value...............: 0.000000033
+
+2.Location IDs included.: 32
+  Coordinates / radius..: (-84.5428,39.1956) / 0
+  Span..................: 0
+  Time frame............: 1 to 2
+  Population............: 873698
+  Number of cases.......: 1211
+  Expected cases........: 1015.94
+  Annual cases / 100000.: 25669.4
+  Observed / expected...: 1.19
+  Relative risk.........: 1.20
+  Log likelihood ratio..: 18.413505
+  P-value...............: 0.000012
+
+3.Location IDs included.: 84, 6, 12, 88, 11, 83, 56
+  Coordinates / radius..: (-82.5369,38.5983) / 0.71
+  Span..................: 1.04
+  Time frame............: 3 to 4
+  Population............: 264394
+  Number of cases.......: 396
+  Expected cases........: 315.07
+  Annual cases / 100000.: 27066.4
+  Observed / expected...: 1.26
+  Relative risk.........: 1.26
+  Log likelihood ratio..: 9.734536
+  P-value...............: 0.025
+
+4.Location IDs included.: 34
+  Coordinates / radius..: (-81.9444,39.9654) / 0
+  Span..................: 0
+  Time frame............: 3 to 4
+  Population............: 83351
+  Number of cases.......: 141
+  Expected cases........: 98.35
+  Annual cases / 100000.: 30873.8
+  Observed / expected...: 1.43
+  Relative risk.........: 1.44
+  Log likelihood ratio..: 8.178653
+  P-value...............: 0.088
+
+5.Location IDs included.: 5
+  Coordinates / radius..: (-83.7845,39.9167) / 0
+  Span..................: 0
+  Time frame............: 3 to 4
+  Population............: 147124
+  Number of cases.......: 219
+  Expected cases........: 174.00
+  Annual cases / 100000.: 27103.9
+  Observed / expected...: 1.26
+  Relative risk.........: 1.26
+  Log likelihood ratio..: 5.413516
+  P-value...............: 0.623
+
+6.Location IDs included.: 20
+  Coordinates / radius..: (-81.7002,41.635) / 0
+  Span..................: 0
+  Time frame............: 1 to 1
+  Population............: 1445433
+  Number of cases.......: 937
+  Expected cases........: 844.83
+  Annual cases / 100000.: 23884.1
+  Observed / expected...: 1.11
+  Relative risk.........: 1.11
+  Log likelihood ratio..: 5.027418
+  P-value...............: 0.749
+
+7.Location IDs included.: 39
+  Coordinates / radius..: (-83.4682,41.6842) / 0
+  Span..................: 0
+  Time frame............: 1 to 2
+  Population............: 463079
+  Number of cases.......: 613
+  Expected cases........: 543.21
+  Annual cases / 100000.: 24301.6
+  Observed / expected...: 1.13
+  Relative risk.........: 1.13
+  Log likelihood ratio..: 4.401300
+  P-value...............: 0.913
+
+8.Location IDs included.: 19, 35
+  Coordinates / radius..: (-83.3044,40.8424) / 0.29
+  Span..................: 0.29
+  Time frame............: 3 to 4
+  Population............: 87196
+  Number of cases.......: 132
+  Expected cases........: 103.70
+  Annual cases / 100000.: 27412.3
+  Observed / expected...: 1.27
+  Relative risk.........: 1.27
+  Log likelihood ratio..: 3.568187
+  P-value...............: 0.992
+_______________________________________________________________________________________________
+
+ADDITIONAL RESULTS FILES
+
+Cluster Information              : E:\Estudios\Data_Science_books\SpatialEpiUpdate\inst\SpatialEpiApp\ss\satscan.col.txt
+Stratified Cluster Information   : E:\Estudios\Data_Science_books\SpatialEpiUpdate\inst\SpatialEpiApp\ss\satscan.sci.txt
+Location Information             : E:\Estudios\Data_Science_books\SpatialEpiUpdate\inst\SpatialEpiApp\ss\satscan.gis.txt
+Risk Estimates for Each Location : E:\Estudios\Data_Science_books\SpatialEpiUpdate\inst\SpatialEpiApp\ss\satscan.rr.txt
+Simulated Log Likelihood Ratios  : E:\Estudios\Data_Science_books\SpatialEpiUpdate\inst\SpatialEpiApp\ss\satscan.llr.txt
+_______________________________________________________________________________________________
+
+PARAMETER SETTINGS
+
+Input
+-----
+  Case File        : E:\Estudios\Data_Science_books\SpatialEpiUpdate\inst\SpatialEpiApp\ss\satscan.cas
+  Population File  : E:\Estudios\Data_Science_books\SpatialEpiUpdate\inst\SpatialEpiApp\ss\satscan.pop
+  Time Precision   : Generic
+  Start Date       : 1
+  End Date         : 4
+  Coordinates File : E:\Estudios\Data_Science_books\SpatialEpiUpdate\inst\SpatialEpiApp\ss\satscan.geo
+  Coordinates      : Cartesian
+
+Analysis
+--------
+  Type of Analysis        : Retrospective Space-Time
+  Probability Model       : Discrete Poisson
+  Scan For Areas With     : High Rates
+  Time Aggregation Units  : Generic
+  Time Aggregation Length : 1
+
+Output
+------
+  Main Results File                : E:\Estudios\Data_Science_books\SpatialEpiUpdate\inst\SpatialEpiApp\ss\satscan.txt
+  HTML file for Google Map         : No
+  KML file for Google Earth        : No
+  Shapefile for GIS software       : No
+  HTML file for Cartesian map      : No
+  Cluster Information              : Yes (ASCII), No (dBase)
+  Stratified Cluster Information   : Yes (ASCII), No (dBase)
+  Location Information             : Yes (ASCII), No (dBase)
+  Risk Estimates for Each Location : Yes (ASCII), No (dBase)
+  Simulated Log Likelihood Ratios  : Yes (ASCII), No (dBase)
+
+Data Checking
+-------------
+  Temporal Data Check     : Check to ensure that all cases and controls are within the specified temporal study period.
+  Geographical Data Check : Check to ensure that all observations (cases, controls and populations) are within the specified geographical area.
+
+Spatial Neighbors
+-----------------
+  Specify neighbors through a non-Euclidean neighbors file : No
+  Specify a meta location file                             : No
+  Observations with Multiple Locations                     : One location per observation.
+
+Locations Network
+-----------------
+  Use Locations Network File : No
+
+Spatial Window
+--------------
+  Maximum Spatial Cluster Size     : 50 percent of population at risk
+  Include Purely Temporal Clusters : No
+  Window Shape                     : Circular
+
+Temporal Window
+---------------
+  Minimum Temporal Cluster Size   : 1 Generic
+  Maximum Temporal Cluster Size   : 50 percent of study period
+  Include Purely Spatial Clusters : No
+
+Cluster Restrictions
+--------------------
+  Minimum Cases in Cluster for High Rates : 2
+  Restrict High Rate Clusters             : No
+
+Space And Time Adjustments
+--------------------------
+  Temporal Adjustment                     : None
+  Adjust for Weekly Trends, Nonparametric : No
+  Spatial Adjustment                      : None
+  Adjust for Known Relative Risks         : No
+
+Inference
+---------
+  P-Value Reporting                  : Default Combination
+  Number of Replications             : 999
+  Adjusting for More Likely Clusters : No
+
+Drilldown
+---------
+  Same Design as Main Analysis : No
+  Purely Spatial Bernoulli     : No
+
+Spatial Output
+--------------
+  Report Hierarchical Clusters              : Yes
+  Criteria for Reporting Secondary Clusters : No Geographical Overlap
+  Restrict Reporting to Smaller Clusters    : No
+
+Temporal Graphs
+---------------
+  Produce Temporal Graphs : No
+
+Other Output
+------------
+  Report Critical Values     : No
+  Report Monte Carlo Rank    : No
+  Print ASCII Column Headers : No
+  User Defined Title         : 
+
+Notifications
+-------------
+  Always Send Email                      : No
+  Send Email with Results Meeting Cutoff : No
+
+Run Options
+-----------
+  Processor Usage   : All Available Processors
+  Suppress Warnings : No
+  Logging Analysis  : No
+
+System
+------
+  Parameters Version : 9.4.0
+_______________________________________________________________________________________________
+
+RUN INFORMATION
+
+Program completed  : Wed May 14 19:02:35 2025
+Total Running Time : 0 seconds
+Processor Usage    : 24 processors
